@@ -1,0 +1,328 @@
+.main_first--section {
+    background-image: url('../img/Group\ 37\ \(1\)\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main_first--img {
+    padding-top: 94px;
+    padding-left: 14px;
+}
+
+.main_first--title {
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 191.95px;
+    color: white;
+}
+
+.main_first--subtitle {
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 95.98px;
+    color: white;
+    margin-top: -25px;
+    margin-bottom: 12px;
+}
+
+.main_first--text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: white;
+    max-width: 508px;
+    margin-bottom: 41px;
+}
+
+.main_first--btn--wrapper {
+    padding-bottom: 183px;
+}
+
+.main_first--btn {
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #8E32C6;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+    color: white;
+}
+
+.main_second--section {
+    background-image: url('../img/Group\ 8\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0;
+}
+
+.main_second--cards--wrapper {
+    border: 5px solid #8E32C6;
+    padding: 25px 50px;
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+}
+
+.main_second--card--text {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.99px;
+    color: white;
+    text-align: center;
+    max-width: 161px;
+}
+
+.main_second--card:first-child::after {
+    content: '';
+    background-image: url('../img/Звёзды\ 1.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.main_second--card:nth-child(2)::before {
+    content: '';
+    background-image: url('../img/Краски\ 1.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.main_second--card:nth-child(3)::after {
+    content: '';
+    background-image: url('../img/Грузан\ 1.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.main_second--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+}
+
+.main_second--card:first-child {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 50px;
+}
+
+.main_second--card:last-child {
+    border-left: 1px solid #FFFFFF;
+    padding-left: 50px;
+}
+
+.main_third--section {
+    background-image: url('../img/Group\ 6\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.main_third--flower {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.main_third--section .main_container {
+    max-width: 951px;
+}
+
+.main_third--title {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+.main_third--cards--wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 951px;
+    gap: 93px;
+    padding-bottom: 114px;
+}
+
+.main_third--card {
+    padding: 49px 14px 29px 13px;
+    border-radius: 15px;
+}
+
+.main_third--card--text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #ffffff;
+    max-width: 228px;
+    margin-bottom: 8px;
+}
+
+.main_third--card--date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #d8d8d8;
+    margin-bottom: 47px;
+}
+
+.main_third--person {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.main_third--person--name {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+.main_third--person--date {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #d8d8d8;
+}
+
+.main_third--card:first-child {
+    background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}
+
+.main_third--card:nth-child(2) {
+    background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+
+.main_third--card:nth-child(3) {
+    background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+
+.main_fourth--section {
+    background-image: url('../img/Group\ 2\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 37px;
+}
+
+.main_fourth--title {
+    padding-top: 20px;
+    margin-bottom: 33px;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 19px;
+}
+
+form input {
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: #959595;
+    border: 0;
+    outline: none;
+}
+
+.form_first--line {
+    display: flex;
+}
+
+.form_first--line input {
+    display: block;
+    height: 60px;
+    font-size: 28px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 430px;
+}
+
+.form_first--line button {
+    display: block;
+    height: 60px;
+    cursor: pointer;
+    padding: 12px 78px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: #959595;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    form input {
+        width: 580px;
+    }
+}
+
+.form_order--btn {
+    width: 248px;
+    height: 68px;
+    border-radius: 16px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    background-color: #8E32C6;
+    color: white;
+}
